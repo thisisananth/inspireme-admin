@@ -1,0 +1,28 @@
+{
+  "name": "inspireme-admin",
+  "version": "1.0.0",
+  "description": "admin functions for inspire-me-nodejs app",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "data",
+    "import"
+  ],
+  "author": "Ananth Majumdar",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/datastore": "^1.4.0",
+    "express": "^4.16.2",
+    "fast-csv": "^2.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
